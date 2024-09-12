@@ -1,0 +1,151 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #343a40;
+    padding: 10px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #343a40;
+    color: white;
+}
+
+/* Estilos del Hero */
+.hero {
+    background-image: url('/img/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Sección About */
+.about {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content img {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+/* Servicios */
+.services {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    flex: 1 1 30%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.service-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.service-card h3 {
+    margin-top: 10px;
+}
+
+/* Testimonios */
+.testimonials {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.testimonial-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.testimonial-card {
+    flex: 1 1 45%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.testimonial-card p {
+    font-style: italic;
+}
+
+.testimonial-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* CTA */
+.cta {
+    padding: 40px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+.cta h2 {
+    margin-bottom: 10px;
+}
+
+.cta p {
+    margin-bottom: 20px;
+}
